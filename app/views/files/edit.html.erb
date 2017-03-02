@@ -1,0 +1,8 @@
+<h1>Edit file</h1>
+<%= form_tag update_file_path, :method => :put do %>
+
+  <%= label_tag :content %>
+  <%= text_area_tag :content, @data, class: 'form-control', rows: 10 %>
+  <%= link_to 'Cancel', files_path, class: 'btn btn-default' %>
+  <%= submit_tag 'Save File', class: 'btn btn-default' %>
+<% end %>
