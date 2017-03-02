@@ -6,4 +6,7 @@ Rails.application.routes.draw do
   get 'files/:name', to: 'files#show', as: 'file'
   get 'files/:name/edit', to: 'files#edit', as: 'edit_file'
   put 'files/:name', to: 'files#update', as: 'update_file'
+  delete 'files/:name', to: 'files#destroy', as: 'delete_file'
+
+  #resources :files - con este reemplazamos todas las rutas
 end

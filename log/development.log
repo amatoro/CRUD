@@ -2869,3 +2869,537 @@ Processing by FilesController#show as HTML
 Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/files/file2" for ::1 at 2017-03-02 00:56:32 -0500
+Started GET "/files" for ::1 at 2017-03-02 00:56:32 -0500
+Processing by FilesController#show as HTML
+Processing by FilesController#index as HTML
+  Parameters: {"name"=>"file2"}
+  Rendering files/index.html.erb within layouts/application
+  Rendering files/show.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (3.4ms)
+  Rendered files/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 264ms (Views: 262.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 283ms (Views: 274.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 00:56:36 -0500
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 00:56:39 -0500
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 00:56:45 -0500
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/files/file2" for ::1 at 2017-03-02 00:56:55 -0500
+Processing by FilesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VJnX2vcSUTckI/wLag+Dk2aGGwAz2wwgFbgGFNAbF2K9LSM/J075eUwvykkYVvyxJVRtNOONxpJgfNcQLMmVtg==", "name"=>"file2"}
+Redirected to http://localhost:3000/files
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 00:56:55 -0500
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/new" for ::1 at 2017-03-02 00:56:57 -0500
+Processing by FilesController#new as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/files/new" for ::1 at 2017-03-02 00:57:20 -0500
+Processing by FilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1q3Z7zFi5NopIQQdCU093Ito2NWqRcshZ8SeEK93YfQg59eWnbdfg9YU0rZ9BE1fctsULe7MKRuAhb/eIDk6Mw==", "name"=>"file1", "content"=>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, nam. Voluptas reiciendis ullam, error. Temporibus vel voluptatibus provident sint hic, veniam, praesentium dolore mollitia quasi libero quam doloremque eum! Consequatur.", "commit"=>"Save File"}
+Redirected to http://localhost:3000/files/file1
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1" for ::1 at 2017-03-02 00:57:20 -0500
+Processing by FilesController#show as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/show.html.erb within layouts/application
+  Rendered files/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1" for ::1 at 2017-03-02 01:01:21 -0500
+Processing by FilesController#show as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/show.html.erb within layouts/application
+  Rendered files/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1" for ::1 at 2017-03-02 01:02:58 -0500
+Processing by FilesController#show as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/show.html.erb within layouts/application
+  Rendered files/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1" for ::1 at 2017-03-02 01:05:52 -0500
+Processing by FilesController#show as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/show.html.erb within layouts/application
+  Rendered files/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1" for ::1 at 2017-03-02 01:06:00 -0500
+Processing by FilesController#show as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/show.html.erb within layouts/application
+  Rendered files/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:06:04 -0500
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:06:07 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:06:29 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 36ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:07:05 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:07:06 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:07:14 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:07:16 -0500
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:07:38 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 43ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:08:20 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:08:52 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 52ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:09:56 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:12:19 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  margin=top: 4em": expected "{", was "}"):
+    4:     <title>CRUDExample</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.scss:24
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3720298486188253841_70274509684100'
+  Rendering /Users/arikotturdottir/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/arikotturdottir/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/arikotturdottir/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering /Users/arikotturdottir/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/arikotturdottir/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/arikotturdottir/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/arikotturdottir/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/arikotturdottir/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (58.4ms)
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:12:31 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1378ms (Views: 1375.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:12:39 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1219ms (Views: 1217.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:12:54 -0500
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/new" for ::1 at 2017-03-02 01:12:57 -0500
+Processing by FilesController#new as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/files/new" for ::1 at 2017-03-02 01:13:15 -0500
+Processing by FilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wLC0GEruBQbVQLB5CdzWXJ2vA8TWr++EblY0CfiC94s2+rph5ju+Xyp1ZtJ9labfZBzPPJImDb6JFxXHd8ysTA==", "name"=>"Test", "content"=>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tenetur qui optio dolores. Placeat laboriosam iusto nesciunt sapiente laborum dolores sint in labore natus, fugit cum ullam architecto est quod.", "commit"=>"Save File"}
+Redirected to http://localhost:3000/files/Test
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/files/Test" for ::1 at 2017-03-02 01:13:15 -0500
+Processing by FilesController#show as HTML
+  Parameters: {"name"=>"Test"}
+  Rendering files/show.html.erb within layouts/application
+  Rendered files/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/Test" for ::1 at 2017-03-02 01:13:41 -0500
+Processing by FilesController#show as HTML
+  Parameters: {"name"=>"Test"}
+  Rendering files/show.html.erb within layouts/application
+  Rendered files/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1271ms (Views: 1269.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/Test" for ::1 at 2017-03-02 01:13:48 -0500
+Processing by FilesController#show as HTML
+  Parameters: {"name"=>"Test"}
+  Rendering files/show.html.erb within layouts/application
+  Rendered files/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:13:51 -0500
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/new" for ::1 at 2017-03-02 01:13:53 -0500
+Processing by FilesController#new as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/new" for ::1 at 2017-03-02 01:14:31 -0500
+Processing by FilesController#new as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1326ms (Views: 1325.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/new" for ::1 at 2017-03-02 01:14:40 -0500
+Processing by FilesController#new as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1269ms (Views: 1267.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/new" for ::1 at 2017-03-02 01:20:02 -0500
+Processing by FilesController#new as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 1379ms (Views: 1369.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/new" for ::1 at 2017-03-02 01:21:13 -0500
+Processing by FilesController#new as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1163ms (Views: 1161.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/new" for ::1 at 2017-03-02 01:22:57 -0500
+Processing by FilesController#new as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1030ms (Views: 1028.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/new" for ::1 at 2017-03-02 01:23:00 -0500
+Processing by FilesController#new as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:23:22 -0500
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1" for ::1 at 2017-03-02 01:23:25 -0500
+Processing by FilesController#show as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/show.html.erb within layouts/application
+  Rendered files/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:23:31 -0500
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1/edit" for ::1 at 2017-03-02 01:23:33 -0500
+Processing by FilesController#edit as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/edit.html.erb within layouts/application
+  Rendered files/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/file1" for ::1 at 2017-03-02 01:23:48 -0500
+Processing by FilesController#show as HTML
+  Parameters: {"name"=>"file1"}
+  Rendering files/show.html.erb within layouts/application
+  Rendered files/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:23:54 -0500
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:24:48 -0500
+Started GET "/files/new" for ::1 at 2017-03-02 01:24:48 -0500
+Processing by FilesController#index as HTML
+Processing by FilesController#new as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.7ms)
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 74ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 73ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/new" for ::1 at 2017-03-02 01:25:14 -0500
+Started GET "/files" for ::1 at 2017-03-02 01:25:14 -0500
+Processing by FilesController#new as HTML
+Processing by FilesController#index as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.8ms)
+  Rendered files/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 68ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 69ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:25:33 -0500
+Processing by FilesController#index as HTML
+Started GET "/files/new" for ::1 at 2017-03-02 01:25:33 -0500
+Processing by FilesController#new as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.7ms)
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:25:51 -0500
+Processing by FilesController#index as HTML
+Started GET "/files/new" for ::1 at 2017-03-02 01:25:51 -0500
+Processing by FilesController#new as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.6ms)
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 71ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 72ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/new" for ::1 at 2017-03-02 01:26:32 -0500
+Started GET "/files" for ::1 at 2017-03-02 01:26:32 -0500
+Processing by FilesController#new as HTML
+Processing by FilesController#index as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (2.5ms)
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 70ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 73ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:27:54 -0500
+Started GET "/files/new" for ::1 at 2017-03-02 01:27:54 -0500
+Processing by FilesController#index as HTML
+Processing by FilesController#new as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (1.0ms)
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 69ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 68ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:27:56 -0500
+Started GET "/files/new" for ::1 at 2017-03-02 01:27:56 -0500
+Processing by FilesController#index as HTML
+Processing by FilesController#new as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (1.8ms)
+  Rendered files/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:28:14 -0500
+Processing by FilesController#index as HTML
+Started GET "/files/new" for ::1 at 2017-03-02 01:28:14 -0500
+Processing by FilesController#new as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.9ms)
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 77ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 75ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:28:27 -0500
+Processing by FilesController#index as HTML
+Started GET "/files/new" for ::1 at 2017-03-02 01:28:27 -0500
+Processing by FilesController#new as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.8ms)
+  Rendered files/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 95ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 89ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:33:49 -0500
+Started GET "/files/new" for ::1 at 2017-03-02 01:33:49 -0500
+Processing by FilesController#index as HTML
+Processing by FilesController#new as HTML
+  Rendering files/index.html.erb within layouts/application
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (8.5ms)
+  Rendered files/new.html.erb within layouts/application (156.3ms)
+Completed 200 OK in 2276ms (Views: 2274.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2286ms (Views: 2275.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files" for ::1 at 2017-03-02 01:33:53 -0500
+Processing by FilesController#index as HTML
+Started GET "/files/new" for ::1 at 2017-03-02 01:33:53 -0500
+Processing by FilesController#new as HTML
+  Rendering files/new.html.erb within layouts/application
+  Rendered files/new.html.erb within layouts/application (1.7ms)
+  Rendering files/index.html.erb within layouts/application
+  Rendered files/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 64ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+

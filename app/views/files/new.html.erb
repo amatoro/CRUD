@@ -5,6 +5,7 @@
   <%= file.text_field :name, class: 'form-control' %>
   <%= file.label :content %>
   <%= file.text_area :content, class: 'form-control', rows: 10 %>
-  <%= link_to 'Cancel', files_path, class: 'btn btn-default' %>
+  <div class="clearfix margin"></div>
+  <%= link_to 'Cancel', files_path, class: 'btn btn-danger' %>
   <%= file.submit 'Save File', class: 'btn btn-default' %>
 <% end %>

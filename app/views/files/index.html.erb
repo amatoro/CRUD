@@ -1,25 +1,22 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-10">
+    <div class="col-xs-12">
+      <%= link_to 'New File', files_new_path, class: 'btn btn-default pull-right' %>
+    </div>
+    <div class="col-xs-12">
       <h1>Files</h1>
       <table class="table">
         <tr>
           <th>Files</th>
           <th>Actions</th>
+          <th></th>
+          <th></th>
         </tr>
         <% @files.each do |file| %>
         <tr>
           <td><%= file %></td>
           <td><%= link_to 'view', file_path(file) %></td>
           <td><%= link_to 'edit', edit_file_path(file) %></td>
+          <td><%= link_to 'delete', delete_file_path(file), :method => :delete, data: { confirm: "Are you sure?" } %></td>
         </tr>
         <% end %>
       </table>
     </div>
-    <div class="col-xs-2">
-      <%= link_to 'New File', files_new_path, class: 'btn btn-default' %>
-    </div>
-    
-  </div>
-</div>
-
